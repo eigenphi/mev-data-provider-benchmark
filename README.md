@@ -25,7 +25,7 @@ npm run start
 To use the application, follow these steps:
 1. Configure the tool with your provider's API credentials following ```.env.example```.
 2. Start the process.  
-3. Connect to WebSocket: ws:\\localhost:8080 to receive aggregated data stream.
+3. Connect to WebSocket: ```ws:\\localhost:8080``` to receive aggregated data stream.
 4. Analyze the results in ```.\logs```.
 ## Contributing
 Contributions to the project are welcome! To contribute, please fork the repository and make your changes. Once you have completed your changes, submit a pull request to the original repository.
