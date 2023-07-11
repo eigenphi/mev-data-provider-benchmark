@@ -1,0 +1,36 @@
+{
+  "name": "mev-data-provider-benchmark",
+  "version": "0.1.0",
+  "description": "TEXT",
+  "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "dev": "ts-node ./src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiao4@eigenphi.io",
+  "license": "MIT",
+  "devDependencies": {
+    "@influxdata/influxdb-client": "^1.33.2",
+    "@tsconfig/node16": "^16.1.0",
+    "@types/node": "^20.3.2",
+    "@types/web3": "^1.2.2",
+    "@types/ws": "^8.5.5",
+    "alchemy-sdk": "^2.9.2",
+    "dotenv": "^16.3.1",
+    "lru-cache": "^10.0.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6",
+    "web3": "^4.0.2",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "ws": "^8.13.0"
+  },
+  "dependencies": {
+    "json-rpc-2.0": "^1.6.0"
+  }
+}
