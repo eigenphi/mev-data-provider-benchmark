@@ -21,6 +21,6 @@ package-lock.json
 *v8.log
 *_副本.*
 *_copy.*
-logs\*
+logs/*
 *-audit.json
 .env
